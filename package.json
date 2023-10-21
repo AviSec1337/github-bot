@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "jsonfile": "^6.1.0",
+    "luxon": "^3.4.3",
+    "moment": "^2.29.4",
+    "random": "^4.1.0",
+    "require": "^2.4.20",
+    "simple-git": "^3.20.0"
+  }
+}
