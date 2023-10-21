@@ -7,7 +7,7 @@ const FILE_PATH = './data.json';
 const makeCommit = async (n) => {
     if (n === 0) return simpleGit().push();
 
-    const x = Math.floor(Math.random() * 55);
+    const x = Math.floor(Math.random() * 56);
     const y = Math.floor(Math.random() * 7);
 
     const date = DateTime.now().minus({ years: 1 }).plus({ weeks: x, days: y });
